@@ -1,5 +1,4 @@
 import Head from "../component/Head";
-// import "../style/About.css"
 
 const AboutSection = () => {
     return(

@@ -43,6 +43,19 @@
     border-color: #2563eb;
 }
 
+.form-row input:-webkit-autofill,
+.form-row input:-webkit-autofill:hover,
+.form-row input:-webkit-autofill:focus,
+.form-row input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #0b1220 inset !important;
+    box-shadow: 0 0 0 30px #0b1220 inset !important;
+    -webkit-text-fill-color: #e6eef8 !important;
+}
+
+.form-row input:-webkit-autofill {
+    -webkit-text-fill-color: #e6eef8 !important;
+}
+
 .field-error {
   color: #dc2626;
   font-size: 1.4rem;

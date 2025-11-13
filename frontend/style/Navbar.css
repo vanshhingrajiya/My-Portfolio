@@ -153,6 +153,10 @@ nav {
         color: white;
     }
 
+    .nav-list{
+        padding-left: 0;
+    }
+
     .menu-mobile ul {
         display: flex;
         flex-direction: column;
@@ -162,14 +166,6 @@ nav {
 
     nav ul li a {
         text-decoration: none;
-    }
-
-    & li:first-child {
-        margin-top: 1.2rem;
-    }
-
-    & li:last-child {
-        margin-bottom: 1.2rem;
     }
 }
 

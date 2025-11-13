@@ -1,6 +1,6 @@
 {
-    "name" : "Print-Ease",
-    "description" : "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "technologies" : [ "React", "CSS", "JavaScript", "HTML" ],
-    "link" : "https://github.com/vanshhingrajiya/Print-Ease"
+    "name" : "My-Portfolio",
+    "description" : "A modern, full-stack portfolio website showcasing projects, skills, and contact information. Built with React, Node.js, Express, and modern web technologies.",
+    "technologies" : [ "React", "CSS", "JavaScript", "Node.js", "Express" ],
+    "link" : "https://github.com/vanshhingrajiya/My-Portfolio"
 }
