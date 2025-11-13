@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(../assets/windows.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333333;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+}
+
+p, li, a, button{
+    font-size: 1.7rem;
+    letter-spacing: .1rem;
+}
+
+.glass-liquid{
+    background: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(45px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    color: black;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.section-title{
+    font-size: 3rem;
+}

@@ -1,0 +1,60 @@
+.projects-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	gap: 1rem;
+	padding: 1rem;
+}
+
+.project-card {
+	background: #0f172a;
+	border: 1px solid rgba(0,0,0,0.06);
+    border-color: rgba(255,255,255,0.04);
+	border-radius: 8px;
+	color: white;
+    padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.project-name {
+	margin: 0;
+	font-size: 2rem;
+	color: #ffffff;
+}
+
+.project-desc {
+	margin: 0;
+	color: #94a3b8;
+	font-size: 1.4rem;
+}
+
+.tech-list {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.4rem;
+	margin: 0.25rem 0 0;
+}
+
+.tech-item {
+	background: rgba(99,102,241,0.12); 
+    color: #c7d2fe;
+	padding: 0.25rem 0.5rem;
+	border-radius: 999px;
+	font-size: 1rem;
+}
+
+.project-link {
+	margin-top: auto;
+	align-self: flex-start;
+	text-decoration: none;
+	color: #93c5fd;
+	font-weight: 600;
+}
+
+.no-projects {
+	color: #6b7280;
+	padding: 1rem;
+}
