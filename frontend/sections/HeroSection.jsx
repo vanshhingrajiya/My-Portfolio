@@ -2,6 +2,7 @@ import "../style/HeroSection.css"
 import Head from "../component/Head";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import myPicture from "../assets/me.jpg"
 
 const HeroSection = () => {
     return(
@@ -29,7 +30,7 @@ const HeroSection = () => {
                             </div>
                         </div>
                         <div className="container image-container">
-                            <img src="../assets/me.jpg" alt="Vansh Hingrajiya" className="my-image"/>
+                            <img src={myPicture} alt="Vansh Hingrajiya" className="my-image"/>
                         </div>
                     </div>
                 </div>
