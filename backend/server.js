@@ -6,8 +6,11 @@ import nodemailer from "nodemailer";
 dotenv.config();
 const app = express();
 app.use(cors());
-app.use(cors({ origin: 'https://vanshhingrajiya.vercel.app' }));
-app.options('*', cors());
+app.use(cors({
+  origin: "https://vanshhingrajiya.vercel.app",
+  methods: ["GET", "POST"],
+  credentials: true,
+}));
 app.use(express.json());
 
 app.post("/send-mail", async (req, res) => {
