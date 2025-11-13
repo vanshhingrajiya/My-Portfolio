@@ -48,7 +48,7 @@ const ContactSection = () => {
 
         setIsLoading(true);
         try {
-            const response = await fetch("https://my-portfolio-one-gamma-kuwxqw99py.vercel.app//send-mail", {
+            const response = await fetch("https://my-portfolio-one-gamma-kuwxqw99py.vercel.app/send-mail", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(formData),
