@@ -18,7 +18,7 @@ const HeroSection = () => {
                                 <span className="my-name">Vansh Hingrajiya</span>
                                 <span className="my-name-mobile">Vansh</span>
                                 <span className="my-name-mobile mb-3">Hingrajiya</span>
-                                <span className="my-role"><h1>Full stack Developer</h1></span><br />
+                                <span className="my-role"><h1>Developer</h1></span><br />
                                 <div>
                                     <a href="https://github.com/vanshhingrajiya" target="_blank" rel="noopener noreferrer">
                                         <FaGithub className="custom-btn mx-3" />

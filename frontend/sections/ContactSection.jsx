@@ -75,7 +75,7 @@ const ContactSection = () => {
             <div className="container">
                 <Head />
                 <div className="container glass-liquid">
-                    <div className="container section-title">Contact Me</div>
+                    <div className="container"><h2 className="section-title">Contact Me</h2></div>
                         <div className="contact-wrapper">
                             <form className="contact-form" aria-label="Contact form" onSubmit={handleSubmit}>
                                 {submitMessage && submitMessage.type === 'success' && (

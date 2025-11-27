@@ -52,6 +52,11 @@
 	text-decoration: none;
 	color: #93c5fd;
 	font-weight: 600;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-link:hover{
+	transform: translateX(3px);
 }
 
 .no-projects {

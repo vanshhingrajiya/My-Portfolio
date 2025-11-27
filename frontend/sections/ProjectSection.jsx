@@ -9,7 +9,7 @@ const ProjectSection = () => {
             <div className="container">
                 <Head />
                     <div className="container glass-liquid">
-                        <div className="container section-title">Projects</div>
+                        <div className="container"><h2 className="section-title">Projects</h2></div>
                             <ProjectDetails />
                     </div>
             </div>

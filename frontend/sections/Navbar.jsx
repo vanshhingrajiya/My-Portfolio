@@ -34,8 +34,8 @@ const Navbar = () => {
         <>
             <div className={`container nav-container ${showNavbar ? "visible" : "hidden"}`}>
                 <div className="grid navbar-grid">
-                    <div className="container">
-                        <span className="logo">Vansh</span>
+                    <div className="container navbar-logo-container">
+                        <h1 className="logo"><a href="#hero" className="logo">Vansh</a></h1>
                     </div>
 
                     <nav className={showMenu ? "menu-mobile" : "menu-desktop"}>

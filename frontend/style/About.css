@@ -1,0 +1,11 @@
+.about-me{
+    text-indent: 3rem;
+    max-width: 100%;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.contact-btn{
+    text-decoration: none;
+}
