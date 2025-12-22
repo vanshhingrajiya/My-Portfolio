@@ -28,6 +28,18 @@ p, li, a, button{
     letter-spacing: .1rem;
 }
 
+.app-root {
+    position: relative;
+    height: 100%;
+}
+
+.app-root canvas {
+    position: fixed !important;
+    inset: 0;
+    pointer-events: none;
+    z-index: -1;
+}
+
 .glass-liquid{
     background: rgba(255, 255, 255, 0.55);
     backdrop-filter: blur(45px);
