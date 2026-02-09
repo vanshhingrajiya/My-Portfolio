@@ -7,7 +7,7 @@ dotenv.config();
 const app = express();
 app.use(cors());
 app.use(cors({
-  origin: "https://vanshhingrajiya.vercel.app",
+  origin: process.env.FRONTEND_URL || "https://vanshhingrajiya.vercel.app",
   methods: ["GET", "POST"],
   credentials: true,
 }));

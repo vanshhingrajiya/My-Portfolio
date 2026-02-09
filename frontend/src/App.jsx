@@ -11,16 +11,6 @@ import "../style/App.css"
 const App = () => {
   return (
     <>
-      <div className="app-root">
-        <Snowfall
-          snowflakeCount={500}
-          color="white"
-          radius={[0.5, 2.5]}
-          speed={[0.5, 2]}
-          wind={[-0.5, 2]}
-        />
-      </div>
-
         <Navbar />
         <HeroSection />
         <AboutSection />
