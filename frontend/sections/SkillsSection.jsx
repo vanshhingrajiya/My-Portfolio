@@ -13,10 +13,10 @@ const SkillsSection = () => {
                     <div className="container">
                         <Using />
                     </div>
-                    <div className="container section-title">Learning</div>
+                    {/* <div className="container section-title">Learning</div>
                     <div className="container">
                         <Learning />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>
