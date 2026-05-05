@@ -46,13 +46,13 @@ app.post("/send-mail", async (req, res) => {
 
 app.post("/print-ease/send-mail", async (req, res) => {
     try {
-    const { email, otp, purpose } = req.body;
+    const { email, otp } = req.body;
 
     // Validate required parameters
-    if (!email || !otp || !purpose) {
+    if (!email || !otp) {
       return res.status(400).json({
         success: false,
-        message: 'Missing required parameters: email, otp, and purpose are required',
+        message: 'Missing required parameters: email and otp are required',
       });
     }
 
@@ -65,15 +65,6 @@ app.post("/print-ease/send-mail", async (req, res) => {
       });
     }
 
-    // Validate purpose
-    const validPurposes = ['mobile_login', 'password_reset', 'mobile_register', 'email_verification'];
-    if (!validPurposes.includes(purpose)) {
-      return res.status(400).json({
-        success: false,
-        message: `Invalid purpose. Valid purposes are: ${validPurposes.join(', ')}`,
-      });
-    }
-
     // Validate OTP (should be numeric and 4-6 digits)
     if (!/^\d{4,6}$/.test(otp)) {
       return res.status(400).json({
@@ -83,7 +74,7 @@ app.post("/print-ease/send-mail", async (req, res) => {
     }
 
     // Get email template
-    const template = getEmailTemplate(purpose, otp);
+    const template = getEmailTemplate(otp);
 
     // Email options
     const mailOptions = {
