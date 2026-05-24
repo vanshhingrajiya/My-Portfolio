@@ -1,0 +1,6 @@
+{
+    "name" : "PrintEase - Print Shop Management System ",
+    "description" : "Print-Ease is a full‑stack print/shop management platform with a React/Vite web frontend, an Expo/React Native mobile-app, and a Node/Express backend. It supports user and admin flows, shop and order management, image uploads (Cloudinary), and Razorpay payment integration.",
+    "technologies" : [ "React", "Node.js", "Express", "Expo", "MongoDB" ],
+    "link" : "https://printease-32zz.onrender.com/"
+}

@@ -2,5 +2,5 @@
     "name" : "My-Portfolio",
     "description" : "A modern, full-stack portfolio website showcasing projects, skills, and contact information. Built with React, Node.js, Express, and modern web technologies.",
     "technologies" : [ "React", "CSS", "JavaScript", "Node.js", "Express" ],
-    "link" : "https://github.com/vanshhingrajiya/My-Portfolio"
+    "link" : "https://vanshhingrajiya.vercel.app/"
 }
